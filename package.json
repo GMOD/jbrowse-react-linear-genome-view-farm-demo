@@ -10,7 +10,7 @@
     "clean": "farm clean",
     "predeploy": "npm run build",
     "deploy": "aws s3 sync --delete dist s3://jbrowse.org/demos/lgv-farm/",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/lgv-farm/*\""
+    "postdeploy": "AWS_PAGER=\"\" aws cloudfront  create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/lgv-farm/*\""
   },
   "dependencies": {
     "@jbrowse/core": "^2.0.0",
