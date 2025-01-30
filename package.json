@@ -13,18 +13,18 @@
     "postdeploy": "AWS_PAGER=\"\" aws cloudfront  create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/lgv-farm/*\""
   },
   "dependencies": {
-    "@jbrowse/core": "^2.0.0",
-    "@jbrowse/react-linear-genome-view": "^2.0.0",
+    "@jbrowse/core": "^3.0.0",
+    "@jbrowse/react-linear-genome-view": "^3.0.0",
     "buffer": "^6.0.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@farmfe/cli": "^1.0.2",
     "@farmfe/core": "^1.1.13",
     "@farmfe/plugin-react": "^1.0.1",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "core-js": "^3.36.1",
     "prettier": "^3.3.2",
     "react-refresh": "^0.14.0"

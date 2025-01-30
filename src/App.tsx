@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { createRoot, hydrateRoot } from 'react-dom/client'
 import {
   createViewState,
   JBrowseLinearGenomeView,
@@ -25,9 +24,6 @@ function View() {
       onChange: patch => {
         setPatches(previous => previous + JSON.stringify(patch) + '\n')
       },
-
-      hydrateFn: hydrateRoot,
-      createRootFn: createRoot,
     })
     setViewState(state)
   }, [])
