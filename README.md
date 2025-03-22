@@ -1,12 +1,7 @@
-# farm with @jbrowse/react-linear-genome-view
+# farm with @jbrowse/react-linear-genome-view2
 
 This is a demo of using the linear genome view with farm (see
 https://github.com/farm-fe/farm)
-
-This particular demo includes several polyfills that are needed for JBrowse
-including the Buffer polyfill
-
-## Demo of `@jbrowse/react-linear-genome-view` with farm
 
 See this app running at https://jbrowse.org/demos/lgv-farm/.
 
